@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsy Wedsite Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="" class=""><img src="logo.png" alt=""class="logo"></a>
+        <ul>
+            <li><a href="" class="">Home</a> </li>
+            <li><a href="" class="">Products</a> </li>
+            <li><a href="" class="">What's New</a> </li>
+            <li><a href="" class="">Newsletter</a> </li>
+            <li><a href="" class="">Contact</a> </li>
+         </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br><span>I like</span></h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    corporis,
+                  </p>
+                    <a href="">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="pepsi001.png" alt="" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pepsi001.png" alt="" onclick="imgSlider('pepsi001.png')"></li>
+            <li><img src="pepsi002.png" alt="" onclick="imgSlider('pepsi002.png')"></li>
+            <li><img src="pepsi003.png" alt="" onclick="imgSlider('pepsi003.png')"></li>
+        </ul>
+        <!-- <ul class="sci"> -->
+            <!-- <li><a href=""><img src="facebook.png" alt=""> -->
+            <!-- <li><a href=""><img src="twitter.png" alt=""> -->
+            <!-- <li><a href=""><img src="instagram.png" alt=""> -->
+            <!-- </a></li> -->
+
+
+        <!-- </ul> -->
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.pepsi').src = anything;
+        }
+    </script>
+</body>
+</html>
